@@ -29,6 +29,6 @@ function calcularTM(){
     } else {
         t = min_LV-TM;
     }
-    let R = 100*((P*STD_P)+(S*STD_S)+(C*STD_C)+(QC*STD_Q))/t;
+    let R = 103.085*((P*STD_P)+(S*STD_S)+(C*STD_C)+(QC*STD_Q))/t;
     respuesta.innerHTML = `Su producción VA es: ${R.toFixed(2)} %`;
 }
