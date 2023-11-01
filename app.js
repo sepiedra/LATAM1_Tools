@@ -4,10 +4,10 @@ let respuesta = document.getElementById('respuesta');
 let min_LV = 355.2;
 let min_S = 400.2;
 
-let STD_P = 24.73;
-let STD_S = 20.45;
-let STD_C = 12.43;
-let STD_Q = 8.83;
+let STD_P = 24.55;
+let STD_S = 19.75;
+let STD_C = 14.59;
+let STD_Q = 5.37;
 
 let P;
 let S;
