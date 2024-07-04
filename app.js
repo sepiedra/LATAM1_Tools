@@ -4,9 +4,9 @@ let respuesta = document.getElementById('respuesta');
 let min_LV = 355.2;
 let min_S = 400.2;
 
-let STD_P = 24.55;
-let STD_S = 19.75;
-let STD_C = 14.59;
+let STD_P = 22.33;
+let STD_S = 18.28;
+let STD_C = 13.79;
 let STD_Q = 5.37;
 
 let P;
@@ -29,6 +29,6 @@ function calcularTM(){
     } else {
         t = min_LV-TM;
     }
-    let R = 100*(0.97*((P*STD_P)+(S*STD_S)+(C*STD_C)+(QC*STD_Q))/t);
+    let R = 100*(1*((P*STD_P)+(S*STD_S)+(C*STD_C)+(QC*STD_Q))/t);
     respuesta.innerHTML = `Su producción VA es: ${R.toFixed(2)} %`;
 }
